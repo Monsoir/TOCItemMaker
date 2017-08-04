@@ -2,7 +2,7 @@ import pyperclip
 import re
 
 # 这些字符需要使用空字符串代替
-CharacterToBeDiscarded = ['.', '/', '(', ')', '，', '>', '<']
+CharacterToBeDiscarded = ['.', '/', '(', ')', '，', '>', '<', ',']
 
 # 这些字符需要使用 - 代替
 CharacterToBeCross = [' ']
